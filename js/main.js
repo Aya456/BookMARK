@@ -88,6 +88,13 @@ displayBookMark(bookmarks);
 
 submitBtn.classList.remove("d-none");
 updateBtn.classList.add("d-none");
+clearInputs() ;
+// bookmarkName.value="";
+// siteURL.value="";
+// bookmarkName.classList.remove("is-invalid");
+// bookmarkName.classList.remove("is-valid");
+// siteURL.classList.remove("is-invalid");
+// siteURL.classList.remove("is-valid");
 }
 //////////////////////////////////////////////////////////////////
 function searchElement(term) {
